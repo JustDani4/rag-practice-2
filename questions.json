@@ -1,0 +1,14 @@
+[
+  {"question":"В какие сроки проверят обращение, если покупку доставили с треснувшим корпусом?", "relevant":"returns.pdf#01", "type":"перефразировка"},
+  {"question":"RMA-17", "relevant":"returns.pdf#02", "type":"код"},
+  {"question":"Сколько времени свёрток может пролежать в ПВЗ?", "relevant":"delivery.pdf#02", "type":"перефразировка"},
+  {"question":"Что делать, если отправление пропало и не движется после плановой даты?", "relevant":"delivery.pdf#03", "type":"обычный"},
+  {"question":"PAY-502", "relevant":"payments.pdf#02", "type":"код"},
+  {"question":"Из кошелька дважды ушли деньги за одну покупку. Что приложить к заявке?", "relevant":"payments.pdf#01", "type":"перефразировка"},
+  {"question":"Какой срок первого ответа на обращение в рабочее время?", "relevant":"quality.pdf#01", "type":"обычный"},
+  {"question":"Что делать, если клиент написал второй раз о той же проблеме?", "relevant":"quality.pdf#02", "type":"перефразировка"},
+  {"question":"REC-04", "relevant":"account.docx#01", "type":"код"},
+  {"question":"Когда сообщают дежурному инженеру о массовом сбое оплаты?", "relevant":"incidents.docx#01", "type":"обычный"},
+  {"question":"B2B-19", "relevant":"promotions.docx#03", "type":"код"},
+  {"question":"Чем проложить пустое пространство в коробке с бьющимся предметом?", "relevant":"warehouse.docx#02", "type":"перефразировка"}
+]

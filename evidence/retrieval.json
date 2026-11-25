@@ -1,0 +1,384 @@
+{
+  "metrics": {
+    "vector": {
+      "hits": 12,
+      "n": 12,
+      "recall_at_3": 1.0,
+      "mrr_at_3": 1.0
+    },
+    "fts": {
+      "hits": 9,
+      "n": 12,
+      "recall_at_3": 0.75,
+      "mrr_at_3": 0.6944444444444445
+    },
+    "hybrid": {
+      "hits": 12,
+      "n": 12,
+      "recall_at_3": 1.0,
+      "mrr_at_3": 0.9166666666666666
+    }
+  },
+  "queries": [
+    {
+      "question": "В какие сроки проверят обращение, если покупку доставили с треснувшим корпусом?",
+      "relevant": "returns.pdf#01",
+      "type": "перефразировка",
+      "modes": {
+        "vector": {
+          "top3": [
+            "returns.pdf#01",
+            "delivery.pdf#02",
+            "delivery.pdf#03"
+          ],
+          "rank": 1
+        },
+        "fts": {
+          "top3": [
+            "quality.pdf#04",
+            "delivery.pdf#02",
+            "quality.pdf#03"
+          ],
+          "rank": null
+        },
+        "hybrid": {
+          "top3": [
+            "delivery.pdf#02",
+            "returns.pdf#01",
+            "delivery.pdf#03"
+          ],
+          "rank": 2
+        }
+      }
+    },
+    {
+      "question": "RMA-17",
+      "relevant": "returns.pdf#02",
+      "type": "код",
+      "modes": {
+        "vector": {
+          "top3": [
+            "returns.pdf#02",
+            "warehouse.docx#03",
+            "warehouse.docx#01"
+          ],
+          "rank": 1
+        },
+        "fts": {
+          "top3": [
+            "returns.pdf#02"
+          ],
+          "rank": 1
+        },
+        "hybrid": {
+          "top3": [
+            "returns.pdf#02",
+            "warehouse.docx#03",
+            "warehouse.docx#01"
+          ],
+          "rank": 1
+        }
+      }
+    },
+    {
+      "question": "Сколько времени свёрток может пролежать в ПВЗ?",
+      "relevant": "delivery.pdf#02",
+      "type": "перефразировка",
+      "modes": {
+        "vector": {
+          "top3": [
+            "delivery.pdf#02",
+            "promotions.docx#01",
+            "warehouse.docx#04"
+          ],
+          "rank": 1
+        },
+        "fts": {
+          "top3": [
+            "promotions.docx#01"
+          ],
+          "rank": null
+        },
+        "hybrid": {
+          "top3": [
+            "promotions.docx#01",
+            "delivery.pdf#02",
+            "warehouse.docx#04"
+          ],
+          "rank": 2
+        }
+      }
+    },
+    {
+      "question": "Что делать, если отправление пропало и не движется после плановой даты?",
+      "relevant": "delivery.pdf#03",
+      "type": "обычный",
+      "modes": {
+        "vector": {
+          "top3": [
+            "delivery.pdf#03",
+            "account.docx#01",
+            "warehouse.docx#04"
+          ],
+          "rank": 1
+        },
+        "fts": {
+          "top3": [
+            "delivery.pdf#03",
+            "warehouse.docx#03",
+            "warehouse.docx#04"
+          ],
+          "rank": 1
+        },
+        "hybrid": {
+          "top3": [
+            "delivery.pdf#03",
+            "warehouse.docx#04",
+            "account.docx#01"
+          ],
+          "rank": 1
+        }
+      }
+    },
+    {
+      "question": "PAY-502",
+      "relevant": "payments.pdf#02",
+      "type": "код",
+      "modes": {
+        "vector": {
+          "top3": [
+            "payments.pdf#02",
+            "incidents.docx#02",
+            "payments.pdf#01"
+          ],
+          "rank": 1
+        },
+        "fts": {
+          "top3": [
+            "payments.pdf#02"
+          ],
+          "rank": 1
+        },
+        "hybrid": {
+          "top3": [
+            "payments.pdf#02",
+            "incidents.docx#02",
+            "payments.pdf#01"
+          ],
+          "rank": 1
+        }
+      }
+    },
+    {
+      "question": "Из кошелька дважды ушли деньги за одну покупку. Что приложить к заявке?",
+      "relevant": "payments.pdf#01",
+      "type": "перефразировка",
+      "modes": {
+        "vector": {
+          "top3": [
+            "payments.pdf#01",
+            "returns.pdf#04",
+            "quality.pdf#02"
+          ],
+          "rank": 1
+        },
+        "fts": {
+          "top3": [
+            "returns.pdf#01",
+            "returns.pdf#02",
+            "account.docx#01"
+          ],
+          "rank": null
+        },
+        "hybrid": {
+          "top3": [
+            "payments.pdf#01",
+            "returns.pdf#01",
+            "returns.pdf#04"
+          ],
+          "rank": 1
+        }
+      }
+    },
+    {
+      "question": "Какой срок первого ответа на обращение в рабочее время?",
+      "relevant": "quality.pdf#01",
+      "type": "обычный",
+      "modes": {
+        "vector": {
+          "top3": [
+            "quality.pdf#01",
+            "incidents.docx#03",
+            "returns.pdf#01"
+          ],
+          "rank": 1
+        },
+        "fts": {
+          "top3": [
+            "quality.pdf#01",
+            "incidents.docx#02",
+            "quality.pdf#04"
+          ],
+          "rank": 1
+        },
+        "hybrid": {
+          "top3": [
+            "quality.pdf#01",
+            "incidents.docx#02",
+            "incidents.docx#03"
+          ],
+          "rank": 1
+        }
+      }
+    },
+    {
+      "question": "Что делать, если клиент написал второй раз о той же проблеме?",
+      "relevant": "quality.pdf#02",
+      "type": "перефразировка",
+      "modes": {
+        "vector": {
+          "top3": [
+            "quality.pdf#02",
+            "payments.pdf#01",
+            "account.docx#03"
+          ],
+          "rank": 1
+        },
+        "fts": {
+          "top3": [
+            "incidents.docx#01",
+            "promotions.docx#04",
+            "quality.pdf#02"
+          ],
+          "rank": 3
+        },
+        "hybrid": {
+          "top3": [
+            "quality.pdf#02",
+            "quality.pdf#04",
+            "returns.pdf#04"
+          ],
+          "rank": 1
+        }
+      }
+    },
+    {
+      "question": "REC-04",
+      "relevant": "account.docx#01",
+      "type": "код",
+      "modes": {
+        "vector": {
+          "top3": [
+            "account.docx#01",
+            "quality.pdf#04",
+            "returns.pdf#02"
+          ],
+          "rank": 1
+        },
+        "fts": {
+          "top3": [
+            "account.docx#01"
+          ],
+          "rank": 1
+        },
+        "hybrid": {
+          "top3": [
+            "account.docx#01",
+            "quality.pdf#04",
+            "returns.pdf#02"
+          ],
+          "rank": 1
+        }
+      }
+    },
+    {
+      "question": "Когда сообщают дежурному инженеру о массовом сбое оплаты?",
+      "relevant": "incidents.docx#01",
+      "type": "обычный",
+      "modes": {
+        "vector": {
+          "top3": [
+            "incidents.docx#01",
+            "incidents.docx#02",
+            "incidents.docx#03"
+          ],
+          "rank": 1
+        },
+        "fts": {
+          "top3": [
+            "incidents.docx#01",
+            "incidents.docx#02",
+            "payments.pdf#03"
+          ],
+          "rank": 1
+        },
+        "hybrid": {
+          "top3": [
+            "incidents.docx#01",
+            "incidents.docx#02",
+            "incidents.docx#04"
+          ],
+          "rank": 1
+        }
+      }
+    },
+    {
+      "question": "B2B-19",
+      "relevant": "promotions.docx#03",
+      "type": "код",
+      "modes": {
+        "vector": {
+          "top3": [
+            "promotions.docx#03",
+            "incidents.docx#02",
+            "payments.pdf#01"
+          ],
+          "rank": 1
+        },
+        "fts": {
+          "top3": [
+            "promotions.docx#03"
+          ],
+          "rank": 1
+        },
+        "hybrid": {
+          "top3": [
+            "promotions.docx#03",
+            "incidents.docx#02",
+            "payments.pdf#01"
+          ],
+          "rank": 1
+        }
+      }
+    },
+    {
+      "question": "Чем проложить пустое пространство в коробке с бьющимся предметом?",
+      "relevant": "warehouse.docx#02",
+      "type": "перефразировка",
+      "modes": {
+        "vector": {
+          "top3": [
+            "warehouse.docx#02",
+            "warehouse.docx#03",
+            "warehouse.docx#01"
+          ],
+          "rank": 1
+        },
+        "fts": {
+          "top3": [
+            "warehouse.docx#02"
+          ],
+          "rank": 1
+        },
+        "hybrid": {
+          "top3": [
+            "warehouse.docx#02",
+            "warehouse.docx#03",
+            "warehouse.docx#01"
+          ],
+          "rank": 1
+        }
+      }
+    }
+  ]
+}

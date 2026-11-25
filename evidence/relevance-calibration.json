@@ -1,0 +1,104 @@
+[
+  {
+    "question": "В какие сроки проверят обращение, если покупку доставили с треснувшим корпусом?",
+    "relevant": "returns.pdf#01",
+    "type": "перефразировка",
+    "top1": "returns.pdf#01",
+    "similarity": 0.6395060371469883
+  },
+  {
+    "question": "RMA-17",
+    "relevant": "returns.pdf#02",
+    "type": "код",
+    "top1": "returns.pdf#02",
+    "similarity": 0.5041598968220022
+  },
+  {
+    "question": "Сколько времени свёрток может пролежать в ПВЗ?",
+    "relevant": "delivery.pdf#02",
+    "type": "перефразировка",
+    "top1": "delivery.pdf#02",
+    "similarity": 0.41541802653408355
+  },
+  {
+    "question": "Что делать, если отправление пропало и не движется после плановой даты?",
+    "relevant": "delivery.pdf#03",
+    "type": "обычный",
+    "top1": "delivery.pdf#03",
+    "similarity": 0.5802787851290321
+  },
+  {
+    "question": "PAY-502",
+    "relevant": "payments.pdf#02",
+    "type": "код",
+    "top1": "payments.pdf#02",
+    "similarity": 0.6022503138929889
+  },
+  {
+    "question": "Из кошелька дважды ушли деньги за одну покупку. Что приложить к заявке?",
+    "relevant": "payments.pdf#01",
+    "type": "перефразировка",
+    "top1": "payments.pdf#01",
+    "similarity": 0.6060692396984871
+  },
+  {
+    "question": "Какой срок первого ответа на обращение в рабочее время?",
+    "relevant": "quality.pdf#01",
+    "type": "обычный",
+    "top1": "quality.pdf#01",
+    "similarity": 0.5661625344947384
+  },
+  {
+    "question": "Что делать, если клиент написал второй раз о той же проблеме?",
+    "relevant": "quality.pdf#02",
+    "type": "перефразировка",
+    "top1": "quality.pdf#02",
+    "similarity": 0.5143743378300129
+  },
+  {
+    "question": "REC-04",
+    "relevant": "account.docx#01",
+    "type": "код",
+    "top1": "account.docx#01",
+    "similarity": 0.4848348236477933
+  },
+  {
+    "question": "Когда сообщают дежурному инженеру о массовом сбое оплаты?",
+    "relevant": "incidents.docx#01",
+    "type": "обычный",
+    "top1": "incidents.docx#01",
+    "similarity": 0.5280212230733123
+  },
+  {
+    "question": "B2B-19",
+    "relevant": "promotions.docx#03",
+    "type": "код",
+    "top1": "promotions.docx#03",
+    "similarity": 0.5650528733605648
+  },
+  {
+    "question": "Чем проложить пустое пространство в коробке с бьющимся предметом?",
+    "relevant": "warehouse.docx#02",
+    "type": "перефразировка",
+    "top1": "warehouse.docx#02",
+    "similarity": 0.46565529908811
+  },
+  {
+    "question": "Какой пароль у корпоративного Wi-Fi для гостей?",
+    "relevant": null,
+    "top1": "account.docx#03",
+    "similarity": 0.31898678375235767
+  },
+  {
+    "question": "Как оформить абонемент в спортзал за счёт компании?",
+    "relevant": null,
+    "top1": "promotions.docx#03",
+    "similarity": 0.2969970959711745
+  },
+  {
+    "question": "Кто утверждает график отпусков бухгалтерии?",
+    "relevant": null,
+    "top1": "quality.pdf#03",
+    "similarity": 0.23081879089102797
+  }
+]

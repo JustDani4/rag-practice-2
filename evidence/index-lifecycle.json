@@ -1,0 +1,40 @@
+{
+  "update_one_file": {
+    "added": 0,
+    "updated": 1,
+    "unchanged": 7,
+    "removed": 0,
+    "documents": 8,
+    "chunks": 32
+  },
+  "invalid_pdf": {
+    "error": "PdfStreamError",
+    "snapshot_unchanged": true
+  },
+  "prune_missing": {
+    "added": 0,
+    "updated": 0,
+    "unchanged": 7,
+    "removed": 1,
+    "documents": 7,
+    "chunks": 28
+  },
+  "restore_original_corpus": {
+    "added": 1,
+    "updated": 1,
+    "unchanged": 6,
+    "removed": 0,
+    "documents": 8,
+    "chunks": 32
+  },
+  "postgres": {
+    "postgres": "17.8 (Debian 17.8-1.pgdg12+1)",
+    "pgvector": "0.8.1"
+  },
+  "embedding_revision": "85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+  "hnsw_plan_with_seqscan_disabled": [
+    "Limit",
+    "  ->  Index Scan using chunks_embedding_hnsw on chunks",
+    "        Order By: (embedding <=> '[768 координат]'::vector)"
+  ]
+}

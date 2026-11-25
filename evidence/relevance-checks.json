@@ -1,0 +1,23 @@
+{
+  "threshold": 0.38,
+  "confirmation": [
+    {
+      "question": "Сколько дней посылка хранится в пункте выдачи?",
+      "similarity": 0.6608685814810006,
+      "passes_gate": true
+    },
+    {
+      "question": "Когда сообщают дежурному инженеру о массовом сбое оплаты?",
+      "similarity": 0.5280212230733123,
+      "passes_gate": true
+    }
+  ],
+  "additional_negative": {
+    "question": "Сколько стоит билет на планетарий?",
+    "answer": "В загруженных регламентах не найдено подтверждение.",
+    "refused": true,
+    "reason": "low_similarity",
+    "similarity": 0.1406,
+    "threshold": 0.38
+  }
+}

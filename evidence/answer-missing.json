@@ -1,0 +1,7 @@
+{
+  "answer": "В загруженных регламентах не найдено подтверждение.",
+  "refused": true,
+  "reason": "low_similarity",
+  "similarity": 0.319,
+  "threshold": 0.38
+}
